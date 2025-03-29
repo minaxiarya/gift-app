@@ -1,6 +1,6 @@
 import HeroBanner from './components/HeroBanner';
 import ProductCard from './components/ProductCard';
-import Header from './components/Header';
+import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 
 const products = [
@@ -33,7 +33,7 @@ const products = [
 export default function HomePage() {
   return (
     <div>
-      <Header />
+      <NavBar />
       <HeroBanner />
       <section className="mt-12">
         <h2 className="text-2xl font-semibold text-center mb-6">Featured Collections</h2>
