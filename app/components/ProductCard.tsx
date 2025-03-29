@@ -1,7 +1,18 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-const ProductCard = ({product}) => {
+type Product = {
+    id: number;
+    title: string;
+    description: string;
+    image: string;
+  };
+  interface ProductCardProps {
+    product: Product;
+  }
+  
+  const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
+
   return (
     <div className="bg-white shadow-md overflow-hidden hover:shadow-lg transition">
       <Image
