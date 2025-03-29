@@ -1,7 +1,7 @@
 import HeroBanner from './components/HeroBanner';
 import ProductCard from './components/ProductCard';
 import NavBar from './components/NavBar';
-import Footer from './components/Footer';
+import FooterBar from './components/FooterBar';
 
 const products = [
   {
@@ -43,7 +43,7 @@ export default function HomePage() {
           ))}
         </div>
       </section>
-      <Footer />
+      <FooterBar />
     </div>
   )
 }
