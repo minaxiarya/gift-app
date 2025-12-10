@@ -32,7 +32,7 @@ const products = [
 
 export default function HomePage() {
   return (
-    <div>
+    <>
       <NavBar />
       <HeroBanner />
       <section className="mt-12">
@@ -44,6 +44,6 @@ export default function HomePage() {
         </div>
       </section>
       <FooterBar />
-    </div>
+    </>
   )
 }
